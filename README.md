@@ -33,3 +33,26 @@ Found it in `template/` folder.
 `variables`: This folder contain colors, breakpoints, typography, etc...
 
 `views`: Here the view organizaton of our model
+
+## Guideline
+
+### Models
+
+Naming:
+
+The file name in lower case.
+Point to the object class name: CamelCased and singular.
+
+Model settings:
+
+At the start include mixins and initializer that is ALWAYS an extend-only mixin called %new.
+
+Methods:
+
+The subelements are Model's methods always written like > .title
+
+Scopes:
+
+The Model variants are scopes setted by data-scope attribute.
+
+You can see `models/post_content.sass` example.

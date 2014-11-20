@@ -1,0 +1,17 @@
+.PostContent
+  // Model properties
+  +rounded-corners(2em)
+  @extend %new
+
+  // Scopes
+  %[data-scope=dark]
+    background-color: $black
+
+  // Initializer
+  %new
+    border: 1px solid $black
+
+  // Methods
+  > .title
+    color: $blue
+
