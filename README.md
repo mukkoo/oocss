@@ -13,9 +13,11 @@ Found it in `template/` folder.
 │   └── images
 ├── models
 ├── services
+├── tasks
 ├── variables
 └── views
     └── layouts
+
 
 ```
 ### What does they contain?
@@ -24,8 +26,10 @@ Found it in `template/` folder.
 
 `models`: Each view have 'elements' with common properties. This is our model.
 
+`tasks`: Contains external usage hooks. Ex: js interaction.
+
 `services`: In this folder there are mixins.
 
 `variables`: This folder contain colors, breakpoints, typography, etc...
 
-`views`: Here the view organizaton of our models.
+`views`: Here the view organizaton of our model
