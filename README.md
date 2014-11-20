@@ -15,6 +15,7 @@ Found it in `template/` folder.
 ├── services
 ├── variables
 └── views
+    └── layouts
 
 ```
 ### What does they contain?
