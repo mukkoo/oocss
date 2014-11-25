@@ -18,6 +18,9 @@ OOCSS have two main principles:
 * Separate structure and skin
 * Separate container and content
 
+## Contribute
+
+This project is currently a draft. If you want to contribute make a fork, a pull request, read the TODO.md or simply open an issue with your questions.
 
 ## Skeleton
 
