@@ -49,6 +49,8 @@ Model settings:
 
 At the start include mixins and initializer that is ALWAYS an extend-only mixin called %new.
 
+All models have width 100%.
+
 Methods:
 
 The subelements are Model's methods always written like > .title
@@ -62,3 +64,15 @@ You can see `models/post_content.sass` example.
 ### Services
 
 Here, simply, the mixins.
+
+### Variables
+
+Here the variables. Surely colors, typography and media queries.
+
+### Views
+
+The views describes the view organization pairing with html views. Here the models (and only the models) have a dimension if needed.
+
+### Assets
+### Tasks
+### Config
