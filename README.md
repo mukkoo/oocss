@@ -85,4 +85,8 @@ Naming:
 
 Every JS library must access to DOM elements pointing to [data-js-interactionname] attribute. Is the same for css rules.
 
+The filename must descrive the interaction.
+
 ### Config
+
+It contains the global configurations like the initializer.
