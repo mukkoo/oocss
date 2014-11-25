@@ -11,6 +11,7 @@ Found it in `template/` folder.
 ├── assets
 │   ├── fonts
 │   └── images
+├── config
 ├── models
 ├── services
 ├── tasks
@@ -18,11 +19,12 @@ Found it in `template/` folder.
 └── views
     └── layouts
 
-
 ```
 ### What does they contain?
 
 `assets`: The assets like fonts & images. Idea: Different subfolders for different type or format (ex: in fonts svg, ttf, etc..)
+
+`config`: Contains the initializers.
 
 `models`: Each view have 'elements' with common properties. This is our model.
 

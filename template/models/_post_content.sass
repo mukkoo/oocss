@@ -1,15 +1,14 @@
 .PostContent
   // Model properties
   +rounded-corners(2em)
+  border: 1px solid $black
+
+  // Initializer
   @extend %new
 
   // Scopes
-  &[data-scope=dark]
+  &[data-css-scope=dark]
     background-color: $black
-
-  // Initializer
-  %new
-    border: 1px solid $black
 
   // Methods
   > .title
