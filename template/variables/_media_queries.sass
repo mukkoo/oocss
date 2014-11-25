@@ -1,0 +1,18 @@
+$mobile-size: 480px
+$tablet-size: 768px
+$netbook-size: 1030px
+$desktop-size: 1380px
+
+$mobile: "all and (max-width: #{$mobile-size})"
+$tablet: "all and (min-width: #{($mobile-size + 1)}) and (max-width: #{$tablet-size})"
+$netbook: "all and (min-width: #{($tablet-size + 1)}) and (max-width: #{$netbook-size})"
+$desktop: "all and (min-width: #{$netbook-size + 1}) and (max-width: #{$desktop-size})"
+$big-desktop: "all and (min-width: #{$desktop-size + 1})"
+
+$up-to-desktop: "all and (max-width: #{$desktop-size})"
+$up-to-netbook: "all and (max-width: #{$netbook-size})"
+$up-to-tablet: "all and (max-width: #{$tablet-size})"
+
+$desktop-and-above: "all and (min-width: #{$netbook-size + 1})"
+$netbook-and-above: "all and (min-width: #{($tablet-size + 1)})"
+$tablet-and-above: "all and (min-width: #{($mobile-size +1)})"
