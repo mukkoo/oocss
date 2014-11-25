@@ -74,5 +74,15 @@ Here the variables. Surely colors, typography and media queries.
 The views describes the view organization pairing with html views. Here the models (and only the models) have a dimension if needed.
 
 ### Assets
+
+Here only the assets files. Never put here sass (or css) files.
+
 ### Tasks
+
+Here we can put the 'external' interactions like JS libraries.
+
+Naming:
+
+Every JS library must access to DOM elements pointing to [data-js-interactionname] attribute. Is the same for css rules.
+
 ### Config
