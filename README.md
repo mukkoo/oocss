@@ -2,6 +2,23 @@
 
 Object Oriented CSS (for SASS) guideline.
 
+This is a start point to build a convention about the OOCSS.
+
+This structure is hardly inspired by [BEMO](https://github.com/stefanoverna/bemo) and this [RubyDay 2014 talk](https://www.youtube.com/watch?v=fUJOJY_yVXg&list=PL5ImBN21eKvbQ6kH6WCAqj1QqgusGsiO0&index=6).
+
+## What is OOCSS?
+
+CSS is not an object oriented language.
+In 2009 Nicole Sullivan introduced this argument ([see the video](http://www.stubbornella.org/content/2009/03/23/object-oriented-css-video-on-ydn/) ) to developers community.
+
+The goal of Object Oriented CSS is the code reuse for faster and more efficient development and mantain.
+
+OOCSS have two main principles:
+
+* Separate structure and skin
+* Separate container and content
+
+
 ## Skeleton
 
 This is the basic skeleton of yout CSS organization.
