@@ -58,3 +58,7 @@ Scopes:
 The Model variants are scopes setted by data-scope attribute.
 
 You can see `models/post_content.sass` example.
+
+### Services
+
+Here, simply, the mixins.
